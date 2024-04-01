@@ -1,8 +1,8 @@
-export const About = () => {
+export default function About() {
   return (
     <section className="flex-col">
       <div className="flex-row my-3">
-        <img src="../../assets/img/ProfilePhoto.jpg" alt="Dani Drury headshot" />
+        <img src="src/assets/img/ProfilePhoto.jpg" alt="Dani Drury headshot" />
         <h1>ABOUT</h1>
       </div>
       <div>

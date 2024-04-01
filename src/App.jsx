@@ -2,6 +2,7 @@ import { useLocation } from 'react-router-dom';
 import { Header } from "./components/Header";
 import { Nav } from './components/Nav';
 import { Footer } from './components/Footer';
+import Page from './components/Page';
 import './App.css';
 
 function App() {

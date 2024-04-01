@@ -8,7 +8,7 @@ export const Nav = ({ currentPage }) => {
     <li className={`mx-5 ${currentPage === `/${Page}` && 'navActive'}`} key={Page}>
       <Link to={`/${Page}`}>{capitalizeFirstLetter(Page)}</Link>
     </li>
-    ));
+  ));
 
   return (
     <nav>
