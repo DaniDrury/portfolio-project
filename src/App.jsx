@@ -1,23 +1,21 @@
-import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+import { Header } from "./components/Header";
+import { Nav } from './components/Nav';
+import { Footer } from './components/Footer';
 import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0);
+  const currentPage = useLocation().pathname;
 
   return (
     <div>
       <Header>
-
+        <Nav currentPage={currentPage} />
       </Header>
       <main>
-
+        <Page currentPage={currentPage} />
       </main>
-      <Footer>
-        
-      </Footer>
+      <Footer />
     </div>
   );
 }
