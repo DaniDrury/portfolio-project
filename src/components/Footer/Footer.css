@@ -1,3 +1,7 @@
+footer {
+  margin-bottom: 1rem;
+}
+
 .flex-row {
   display: flex;
   flex-flow: row nowrap;
@@ -8,5 +12,5 @@
 }
 
 .w-60 {
-  min-width: 60%;
+  min-width: 40%;
 }

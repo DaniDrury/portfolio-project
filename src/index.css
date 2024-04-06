@@ -12,22 +12,27 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
   box-sizing: border-box;
+  width: 100vw;
 }
 
 body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  width: 100%;
   min-width: 320px;
   min-height: 100vh;
 }
 
+main {
+  width: 75%;
+  margin: auto;
+}
+
 a {
-  font-weight: 500;
+  font-weight: 700;
   color: #646cff;
   text-decoration: inherit;
 }
@@ -44,14 +49,6 @@ h2 {
   margin-top: 2rem;
   font-size: 2rem;
   padding-left: 2rem;
-}
-
-.space-between {
-  justify-content: space-between;
-}
-
-nav ul {
-  display: flex;
 }
 
 button {
@@ -71,6 +68,44 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flex-1 {
+  flex-grow: 1;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+/* .align-bottom {
+  align-items: end;
+} */
+
+.max-vh {
+  height: 100vh;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.my-3 {
+  margin: 3rem 0;
 }
 
 @media (prefers-color-scheme: light) {

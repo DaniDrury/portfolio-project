@@ -13,7 +13,7 @@ export default function Page({ currentPage }) {
   }, [currentPage]);
 
   return (
-    <section>
+    <section className='my-3'>
       <h2>{capitalizeFirstLetter(currentPage) || 'About Me'}</h2>
       <div>
         <Outlet />
