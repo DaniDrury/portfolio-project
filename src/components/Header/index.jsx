@@ -1,4 +1,4 @@
-import './index.css';
+import './Header.css';
 
 export const Header = (props) => {
   console.log(props);
