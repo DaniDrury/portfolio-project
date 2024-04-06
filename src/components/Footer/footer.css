@@ -1,0 +1,12 @@
+footer {
+  /* height: 00px; */
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.px-2 {
+  padding: 0 2rem;
+}
