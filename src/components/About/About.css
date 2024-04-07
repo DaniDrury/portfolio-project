@@ -2,15 +2,17 @@ img {
   margin: auto;
   width: 80%;
   border-radius: 50%;
+  max-width: 300px;
 }
 
 #img-div {
   /* width: 25%; */
   /* min-width: 300px; */
-  max-height: 300px;
+  /* max-height: 300px; */
   /* margin: auto; */
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  /* margin: auto; */
 }
 
 #about-div {
@@ -25,4 +27,20 @@ img {
   margin: auto;
   align-items: flex-start;
   font-size: 1.2rem;
+}
+
+@media screen and (min-width: 980px) {
+  #img-div {
+    width: 30%;
+    display: flex;
+    align-items: baseline;
+  }
+
+  img {
+    margin: 2rem;
+  }
+
+  #p-div {
+    width: 70%;
+  }
 }

@@ -2,9 +2,9 @@ import './Resume.css';
 
 export default function Resume() {
   return (
-    <section className="mx-2">
+    <section id="resumeSection" className="mx-2">
       <a href="\src\assets\Drury Tech Resume.pdf" download>Download Resume</a>
-      <div>
+      <div className="skillsDiv">
         <h3>Front End Skills</h3>
         <div>
           <ul className='skillsUl'>
@@ -16,7 +16,7 @@ export default function Resume() {
           </ul>
         </div>
       </div>
-      <div>
+      <div className='skillsDiv'>
         <h3>Back End Skills</h3>
         <div>
           <ul className='skillsUl'>

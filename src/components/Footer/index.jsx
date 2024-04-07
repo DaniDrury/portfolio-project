@@ -16,8 +16,6 @@ export const Footer = () => {
     }
   ];
 
-  // const faClasses = `{icons.name} `
-
   const iconList = icons.map(icon => (
     <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer"><i className={`${icon.name} fa-2x`}></i></a>
   ));

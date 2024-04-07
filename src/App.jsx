@@ -8,7 +8,7 @@ function App() {
   const currentPage = useLocation().pathname;
 
   return (
-    <div className='flex-col max-vh'>
+    <div id='bodyDiv' className='flex-col max-vh'>
       <Header>
         <Nav currentPage={currentPage} />
       </Header>

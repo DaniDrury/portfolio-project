@@ -14,7 +14,13 @@ h1 {
 
 #header-div {
   width: 100%;
-  transition: all 1s ease-in-out;
+  transition: all 1s linear;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    min-height: 100px;
+  }
 }
 
 @media screen and (min-width: 980px) {
@@ -30,6 +36,10 @@ h1 {
 }
 
 @media screen and (min-width: 1280px) {
+  header {
+    min-width: 100%;
+  }
+
   h1 {
     font-size: 3.2em;
     line-height: 1.1;
