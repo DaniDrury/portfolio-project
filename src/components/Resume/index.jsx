@@ -13,6 +13,7 @@ export default function Resume() {
             <li>JavaScript</li>
             <li>Tailwind</li>
             <li>React</li>
+            <li>HTMX</li>
           </ul>
         </div>
       </div>
