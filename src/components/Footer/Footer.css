@@ -1,5 +1,5 @@
 footer {
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .flex-row {
@@ -12,5 +12,5 @@ footer {
 }
 
 .w-60 {
-  min-width: 40%;
+  min-width: 60%;
 }

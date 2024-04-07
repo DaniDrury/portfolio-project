@@ -1,0 +1,13 @@
+.mx-2 {
+  margin: 0 2rem;
+}
+
+.skillsUl {
+  margin: 0;
+  padding: 0;
+  list-style: circle inside;
+}
+
+/* .skillsUl li {
+  text-decoration: dotted;
+} */

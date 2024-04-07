@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import './Contact.css';
 
 export default function Contact() {
   const [formState, setFormState] = useState({
@@ -40,7 +41,7 @@ export default function Contact() {
   };
 
   return (
-    <section>
+    
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
@@ -61,6 +62,6 @@ export default function Contact() {
         )}
         <button type='submit'>Submit</button>
       </form>
-    </section>
+    
   );
 }

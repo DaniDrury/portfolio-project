@@ -1,11 +1,13 @@
+import './Resume.css';
+
 export default function Resume() {
   return (
-    <section>
+    <section className="mx-2">
       <a href="\src\assets\Drury Tech Resume.pdf" download>Download Resume</a>
       <div>
         <h3>Front End Skills</h3>
         <div>
-          <ul>
+          <ul className='skillsUl'>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -17,7 +19,7 @@ export default function Resume() {
       <div>
         <h3>Back End Skills</h3>
         <div>
-          <ul>
+          <ul className='skillsUl'>
             <li>Express.js</li>
             <li>MySQL/Sequelize.js</li>
             <li>MongoDB/Mongoose.js</li>

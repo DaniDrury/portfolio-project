@@ -1,24 +1,28 @@
 img {
+  margin: auto;
   width: 80%;
   border-radius: 50%;
 }
 
 #img-div {
-  width: 25%;
-  min-width: 300px;
+  /* width: 25%; */
+  /* min-width: 300px; */
   max-height: 300px;
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
 }
 
 #about-div {
-  width: 50%;
+  /* width: 100%; */
   justify-content: baseline;
 }
 
 #p-div {
   display: flex;
   flex-flow: column nowrap;
-  width: 70%;
-  margin:auto;
+  width: 90%;
+  margin: auto;
   align-items: flex-start;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
