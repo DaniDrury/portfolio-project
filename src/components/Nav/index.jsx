@@ -6,7 +6,7 @@ export const Nav = ({ currentPage }) => {
   const pages = ['portfolio', 'contact', 'resume'];
 
   const listItems = pages.map((Page) => (
-    <li className={`mx-5 ${currentPage === `/${Page}` && 'navActive'}`} key={Page}>
+    <li className={`${currentPage === `/${Page}` && 'navActive'}`} key={Page}>
       <Link to={`/${Page}`}>{capitalizeFirstLetter(Page)}</Link>
     </li>
   ));
@@ -14,7 +14,7 @@ export const Nav = ({ currentPage }) => {
   return (
     <nav>
       <ul>
-        <li className={`mx-5 ${currentPage === '/' && 'navActive'}`} key='about'>
+        <li className={`${currentPage === '/' && 'navActive'}`} key='about'>
           <Link to='/'>About</Link>
         </li>
         {listItems}
