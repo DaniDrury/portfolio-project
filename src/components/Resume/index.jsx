@@ -3,7 +3,7 @@ import './Resume.css';
 export default function Resume() {
   return (
     <section id="resumeSection" className="mx-2">
-      <a href="\src\assets\Drury Tech Resume.pdf" download>Download Resume</a>
+      <a href="\public\assets\DruryTechResume.pdf" download>Download Resume</a>
       <div className="skillsDiv">
         <h3>Front End Skills</h3>
         <div>

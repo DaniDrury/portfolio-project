@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div id='about' className='flex-row my-2'>
       <div id='img-div'>
-        <img src={"src/assets/img/ProfilePhoto.jpg"} alt="Dani Drury headshot" />
+        <img src={"public/assets/img/ProfilePhoto.jpg"} alt="Dani Drury headshot" />
       </div>
       <div id='p-div'>
         <p>Hi! I'm Dani, a junior fullstack web developer, recently completing the UC Berkeley Coding Bootcamp. I delight in creating user-friendly, practical, and performant web applications using HTML, CSS, Javascript, Node.js, HTMX, MySQL, MongoDB, and most recently, React!</p>

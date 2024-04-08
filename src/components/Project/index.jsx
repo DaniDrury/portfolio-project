@@ -1,4 +1,3 @@
-import { Link } from 'react';
 import './Project.css';
 
 export default function Project({ project }) {
