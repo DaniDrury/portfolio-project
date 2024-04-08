@@ -1,4 +1,4 @@
-img {
+#img-div img {
   margin: auto;
   width: 80%;
   border-radius: 50%;
@@ -6,17 +6,11 @@ img {
 }
 
 #img-div {
-  /* width: 25%; */
-  /* min-width: 300px; */
-  /* max-height: 300px; */
-  /* margin: auto; */
   display: flex;
   justify-content: start;
-  /* margin: auto; */
 }
 
 #about-div {
-  /* width: 100%; */
   justify-content: baseline;
 }
 
@@ -36,7 +30,7 @@ img {
     align-items: baseline;
   }
 
-  img {
+  #img-div img {
     margin: 2rem;
   }
 

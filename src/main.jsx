@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx';
 import Error from './components/ErrorPage/index.jsx';
 import About from './components/About';
-// import Portfolio from './components/Portfolio';
+import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import './index.css';
@@ -18,10 +18,10 @@ const router = createBrowserRouter([
         index: true,
         element: <About />
       },
-      // {
-      //   path: 'portfolio',
-      //   element: <Portfolio />
-      // },
+      {
+        path: 'portfolio',
+        element: <Portfolio />
+      },
       {
         path: 'contact',
         element: <Contact />

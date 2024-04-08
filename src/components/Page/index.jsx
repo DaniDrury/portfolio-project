@@ -6,8 +6,6 @@ export default function Page({ currentPage }) {
   // save currentPage without the preceeding '/'
   currentPage = currentPage.substring(1);
   
-  console.log(currentPage);
-
   useEffect(() => {
     document.title = capitalizeFirstLetter(currentPage);
   }, [currentPage]);
