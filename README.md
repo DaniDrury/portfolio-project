@@ -4,6 +4,8 @@
 ## Description
 Single page webapp - professional portfolio using React.
 
+![image](/public/assets/img/screenshot.png)
+
 ## Usage
 Go to https://main--danidruryportfolio.netlify.app/ to view my portfolio.
 
