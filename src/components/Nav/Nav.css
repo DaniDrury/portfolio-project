@@ -31,6 +31,14 @@ nav ul li a:hover {
   background-color: antiquewhite;
 }
 
+.navActive {
+  color: #3239bd;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  margin: 0.5rem;
+  padding: 0.1rem 0.5rem 0.3rem 0.5rem;
+}
+
 @media screen and (min-width: 768px) {
   nav {
     display: flex;
